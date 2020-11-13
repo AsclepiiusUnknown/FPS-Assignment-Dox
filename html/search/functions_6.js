@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['init_334',['Init',['../class_f_p_s_1_1_mouse_look.html#aca5f8a42af89bc8ae4cb1e4b33fafb85',1,'FPS::MouseLook']]]
+  ['lookrotation_289',['LookRotation',['../class_f_p_s_1_1_mouse_look.html#a7ef8ed1ad02750acacf3064eecf3d498',1,'FPS::MouseLook']]]
 ];

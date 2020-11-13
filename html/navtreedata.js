@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Diploma FPS Assignment", "index.html", [
+  [ "FPS Shooter", "index.html", [
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -45,15 +45,14 @@ var NAVTREE =
         [ "All", "globals.html", null ],
         [ "Enumerations", "globals_enum.html", null ]
       ] ]
-    ] ],
-    [ "Examples", "examples.html", "examples" ]
+    ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
 "_audio_manager_8cs.html",
-"class_weapon.html#acf311c782c8abaf429d2f8910848b182"
+"class_testing.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -12,8 +12,7 @@ var dir_87fc07dbed4b74099157f7ecb74d41f9 =
       [ "Scoping", "class_scoping.html", "class_scoping" ]
     ] ],
     [ "Target.cs", "_target_8cs.html", [
-      [ "Target", "class_target.html", "class_target" ],
-      [ "DeathEvent", "class_target_1_1_death_event.html", null ]
+      [ "Target", "class_target.html", "class_target" ]
     ] ],
     [ "WeaponHandler.cs", "_weapon_handler_8cs.html", "_weapon_handler_8cs" ]
 ];

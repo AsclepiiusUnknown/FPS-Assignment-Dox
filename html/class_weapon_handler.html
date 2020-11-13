@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.20"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Diploma FPS Assignment: WeaponHandler Class Reference</title>
+<title>FPS Shooter: WeaponHandler Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -24,11 +24,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="deepfry.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Diploma FPS Assignment
-   &#160;<span id="projectnumber">v_0.4.6</span>
+   <div id="projectname">FPS Shooter
+   &#160;<span id="projectnumber">v1</span>
    </div>
-   <div id="projectbrief">A FPS game developed for my major Diploma work.</div>
+   <div id="projectbrief">My FPS Assignment</div>
   </td>
  </tr>
  </tbody>
@@ -84,7 +85,6 @@ $(document).ready(function(){initNavTree('class_weapon_handler.html',''); initRe
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="class_weapon_handler-members.html">List of all members</a>  </div>
@@ -92,102 +92,27 @@ $(document).ready(function(){initNavTree('class_weapon_handler.html',''); initRe
 <div class="title">WeaponHandler Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for WeaponHandler:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="class_weapon_handler.png" alt=""/>
- </div></div>
+
+<p>Inherits MonoBehaviour.</p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a051a6d5f430b07ae4c91a7219e2eb0c1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_weapon_handler.html#a051a6d5f430b07ae4c91a7219e2eb0c1">GetSwitchInputs</a> ()</td></tr>
-<tr class="separator:a051a6d5f430b07ae4c91a7219e2eb0c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a490befd7787893ad23476e56f3176ed3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_weapon_handler.html#a490befd7787893ad23476e56f3176ed3">SelectWeapon</a> ()</td></tr>
-<tr class="separator:a490befd7787893ad23476e56f3176ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab31d29e750b3ac740fd1ac31a0148c41"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_weapon_handler.html#ab31d29e750b3ac740fd1ac31a0148c41">GetValueOf</a> (float _myParam)</td></tr>
-<tr class="memdesc:ab31d29e750b3ac740fd1ac31a0148c41"><td class="mdescLeft">&#160;</td><td class="mdescRight">This does something cool.  <a href="class_weapon_handler.html#ab31d29e750b3ac740fd1ac31a0148c41">More...</a><br /></td></tr>
-<tr class="separator:ab31d29e750b3ac740fd1ac31a0148c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2bfa7d766c39bc13833bcb75c952ed53"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_weapon_handler.html#a2bfa7d766c39bc13833bcb75c952ed53">selectedWeapon</a> = 0</td></tr>
 <tr class="separator:a2bfa7d766c39bc13833bcb75c952ed53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0f646be4417d150c88bc9a4e1de83d0"><td class="memItemLeft" align="right" valign="top">Image[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_weapon_handler.html#ac0f646be4417d150c88bc9a4e1de83d0">gunIcons</a></td></tr>
+<tr class="separator:ac0f646be4417d150c88bc9a4e1de83d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fcc0555b778a873708530587923d8a1"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_weapon_handler.html#a8fcc0555b778a873708530587923d8a1">flashLight</a></td></tr>
+<tr class="separator:a8fcc0555b778a873708530587923d8a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a611191b882bf4a303b3df1a8eec5fc9f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_weapon_handler_8cs.html#ad7edff06fb05dbcafab6aff8f5069690">GunTypes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_weapon_handler.html#a611191b882bf4a303b3df1a8eec5fc9f">currentType</a></td></tr>
 <tr class="separator:a611191b882bf4a303b3df1a8eec5fc9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a051a6d5f430b07ae4c91a7219e2eb0c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a051a6d5f430b07ae4c91a7219e2eb0c1">&#9670;&nbsp;</a></span>GetSwitchInputs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int WeaponHandler.GetSwitchInputs </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p></p>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-</div>
-</div>
-<a id="ab31d29e750b3ac740fd1ac31a0148c41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab31d29e750b3ac740fd1ac31a0148c41">&#9670;&nbsp;</a></span>GetValueOf()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float WeaponHandler.GetValueOf </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>_myParam</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This does something cool. </p>
-<p>Usage: </p><div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keywordtype">float</span> <a class="code" href="class_weapon_handler.html#ab31d29e750b3ac740fd1ac31a0148c41">GetValueOf</a>(<span class="keywordtype">float</span> _myParam)</div>
-<div class="line">{</div>
-<div class="line">    <span class="keywordflow">return</span> _myParam;</div>
-<div class="line">}</div>
-</div><!-- fragment --> <dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">_myParam</td><td>A float value to return</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a490befd7787893ad23476e56f3176ed3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a490befd7787893ad23476e56f3176ed3">&#9670;&nbsp;</a></span>SelectWeapon()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void WeaponHandler.SelectWeapon </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="_weapon_handler_8cs_source.html#l00006">6</a> of file <a class="el" href="_weapon_handler_8cs_source.html">WeaponHandler.cs</a>.</p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a611191b882bf4a303b3df1a8eec5fc9f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a611191b882bf4a303b3df1a8eec5fc9f">&#9670;&nbsp;</a></span>currentType</h2>
 
@@ -208,6 +133,40 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_weapon_handler_8cs_source.html#l00012">12</a> of file <a class="el" href="_weapon_handler_8cs_source.html">WeaponHandler.cs</a>.</p>
+
+</div>
+</div>
+<a id="a8fcc0555b778a873708530587923d8a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fcc0555b778a873708530587923d8a1">&#9670;&nbsp;</a></span>flashLight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject WeaponHandler.flashLight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weapon_handler_8cs_source.html#l00026">26</a> of file <a class="el" href="_weapon_handler_8cs_source.html">WeaponHandler.cs</a>.</p>
+
+</div>
+</div>
+<a id="ac0f646be4417d150c88bc9a4e1de83d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0f646be4417d150c88bc9a4e1de83d0">&#9670;&nbsp;</a></span>gunIcons</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image [] WeaponHandler.gunIcons</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_weapon_handler_8cs_source.html#l00017">17</a> of file <a class="el" href="_weapon_handler_8cs_source.html">WeaponHandler.cs</a>.</p>
+
 </div>
 </div>
 <a id="a2bfa7d766c39bc13833bcb75c952ed53"></a>
@@ -222,19 +181,20 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="_weapon_handler_8cs_source.html#l00016">16</a> of file <a class="el" href="_weapon_handler_8cs_source.html">WeaponHandler.cs</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/broderick.westrope/Documents/GitHub/Diploma-FPS-Assignment/Assets/Scripts/Weaponary/<a class="el" href="_weapon_handler_8cs.html">WeaponHandler.cs</a></li>
+<li>C:/Users/ascle/Desktop/Unity Stuffs/Unity Projects/TAFE/Diploma/Diploma-FPS-Assignment/Assets/Scripts/Weaponary/<a class="el" href="_weapon_handler_8cs_source.html">WeaponHandler.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclass_weapon_handler_html_ab31d29e750b3ac740fd1ac31a0148c41"><div class="ttname"><a href="class_weapon_handler.html#ab31d29e750b3ac740fd1ac31a0148c41">WeaponHandler.GetValueOf</a></div><div class="ttdeci">float GetValueOf(float _myParam)</div><div class="ttdoc">This does something cool.</div><div class="ttdef"><b>Definition:</b> WeaponHandler.cs:173</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_weapon_handler.html">WeaponHandler</a></li>
-    <li class="footer">Generated on Mon Nov 9 2020 15:03:35 for Diploma FPS Assignment by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
+    <li class="footer">Generated by <a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20 </li>
   </ul>
 </div>
 </body>

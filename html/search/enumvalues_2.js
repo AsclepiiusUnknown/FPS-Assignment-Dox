@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['impact_501',['Impact',['../_grenade_8cs.html#a2ad9f3dcafe8b0267e127d0afe11f743a21f59b54f62b5b8b4bc0f63f0f617fc1',1,'Grenade.cs']]]
+  ['pistol_451',['Pistol',['../_weapon_handler_8cs.html#ad7edff06fb05dbcafab6aff8f5069690a524b64722661b303ed5754c492c0ef14',1,'WeaponHandler.cs']]]
 ];

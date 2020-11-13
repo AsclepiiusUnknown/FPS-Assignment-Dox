@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['lookrotation_335',['LookRotation',['../class_f_p_s_1_1_mouse_look.html#a7ef8ed1ad02750acacf3064eecf3d498',1,'FPS::MouseLook']]]
+  ['offset_290',['Offset',['../class_f_p_s_1_1_lerp_controlled_bob.html#ac939169867d1746f1ed6faa0c07ade3a',1,'FPS::LerpControlledBob']]]
 ];

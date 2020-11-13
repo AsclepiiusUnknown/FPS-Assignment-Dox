@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['pistol_503',['Pistol',['../_weapon_handler_8cs.html#ad7edff06fb05dbcafab6aff8f5069690a524b64722661b303ed5754c492c0ef14',1,'WeaponHandler.cs']]],
-  ['practice_504',['Practice',['../_game_manager_8cs.html#ae1530eae5079db496724a4857d911f09a8c004d7e3b8a5a850ab2459c3afc2f57',1,'GameManager.cs']]]
+  ['shotgun_453',['Shotgun',['../_weapon_handler_8cs.html#ad7edff06fb05dbcafab6aff8f5069690a5874c47265f75018afdadf2d4a326344',1,'WeaponHandler.cs']]],
+  ['sniper_454',['Sniper',['../_weapon_handler_8cs.html#ad7edff06fb05dbcafab6aff8f5069690a007be3acd5669d100711b13d79e23369',1,'WeaponHandler.cs']]],
+  ['sticky_455',['Sticky',['../_grenade_8cs.html#a2ad9f3dcafe8b0267e127d0afe11f743ad8f6d391ba573fe747a3360afb99904d',1,'Grenade.cs']]],
+  ['stun_456',['Stun',['../_grenade_8cs.html#a2ad9f3dcafe8b0267e127d0afe11f743a27e9c0d7972e999a5bbe094c4cede584',1,'Grenade.cs']]]
 ];
